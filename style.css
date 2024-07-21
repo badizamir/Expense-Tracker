@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-image:url('still-life-black-background_52683-100727.avif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+background-position: center;
+    
+}
+
+.container {
+    max-width: 600px;
+    background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlM19waG90b19vZl9ibGFja19nYWxheHlfc2ltcGxlX2JsYWNrX2JhY2tncm91bmRfNWQwOTdkMzktYjllOC00ZmY1LWFmZDItNjQwMWQ0YjkzYTBmXzEuanBn.jpg');
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(60, 12, 44, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #454806; /* Dark gray heading color */
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 8px;
+    color: #3ad5b3; /* Medium gray label color */
+}
+
+.form-control input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #bed53e;
+    border-radius: 4px;
+    background-color: #a6b96e; /* Light gray input background */
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #822edc; /* Primary blue button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    background-color: #f2f2f2; /* Lighter list item background */
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(36, 226, 36, 0.1);
+}
+
+.list li:hover {
+    background-color: #e6e6e6; /* Slightly darker on hover */
+}
+
+.list li .edit-btn, .list li .delete-btn {
+    background-color: #250f67; /* Red edit and delete button color */
+    color: rgb(153, 179, 180);
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.list li .edit-btn:hover, .list li .delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
